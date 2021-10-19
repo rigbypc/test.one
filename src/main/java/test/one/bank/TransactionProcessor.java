@@ -14,7 +14,6 @@ public class TransactionProcessor {
 	
 	public void transaction(Integer transNum, Double amount) {
 		cobol.display(transNum);
-		cobol.display(amount);
 		
 		amount *= fee;
 		
